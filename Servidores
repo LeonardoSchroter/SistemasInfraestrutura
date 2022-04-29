@@ -1,0 +1,30 @@
+1.	Arquitetura cliente servidor
+Separa o cliente servidor, normalmente o servidor se conecta a uma rede de computadores. Cada computador de cliente pode enviar requisições para os servidores conectados, alguns podem aprovar e processa-la. O cliente servidor podem se conectar por hardwares separados ou residir no mesmo sistema.
+
+
+2.	Sistema operacional para servidores
+O servidor necessita de um sistema operacional para seu funcionamento. O sistema operacional é escolhido de acordo com a aplicação que este servidor terá.
+
+3.	Principais serviços
+-Serviço de email:
+IMAP: Permite você ver suas mensagens de qualquer dispositivo a qualquer momento. Sempre é feito diretamente pelo servidor em que a conta é acessadoa.
+POP3:Servidor de recebimento de e-mails, permite transferir as mensagens de um lugar para o outro, após isso as apaga do servidor, as fazendo permanecer apenas no dispositivo.
+SMTP: Permite a entrega de um email por via de um servidor de email ou cliente de email para um servidor de email.
+-Serviço de arquivo(protocolos):
+	SFTP: Permite que ninguém veja seus dados a não ser você.
+SSH: Permite usuários configurarem sites e servidores pela internet de uma forma segura e simples.
+-Serviço de segurança:
+	Firewalls: Filtram o acesso de dados e quem tem acesso a eles.
+Proxy: Age como intermediário entre o usuário e a internet e repassa todas as suas requisições ao site sente acessado, assim o IP que registrado nas paginas é o do proxy, não o seu.
+
+-Serviço de banco de dados:
+São os dados que tratam do mesmo assunto e precisam ser salvos no mesmo lugar, um servidor tem diversos bancos de dados, por isso é necessário um serviço de gerencia de banco de dados.
+-Serviço de HTTP ou HTTPS:
+O http permite que os usuários que inserirem o url de um site possam acessa-lo.
+
+
+
+4.	Virtualização de servidores
+
+Virtualizar um servidor é pegar um servidor físico e dividi-lo em diversas maquinas virtuais, assim tendo uma maior segurança, pois cada máquina funciona independente uma da outra e pode rodar seu próprio sistema operacional. Você pode atribuir quanta memória, qual porcentagem de cpu e etc cada maquina utilizara.
+
